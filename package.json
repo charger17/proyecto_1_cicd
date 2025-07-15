@@ -1,0 +1,15 @@
+{
+  "name": "proyecto_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --outfile=public/main.js --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.25.6"
+  }
+}
